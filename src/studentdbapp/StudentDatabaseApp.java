@@ -21,7 +21,8 @@ public class StudentDatabaseApp {
 			}
 			
 			for (int n=0; n<numOfStudents; n++) {
-				System.out.println(students[n].toString());
+				System.out.println("\n**********************");
+				System.out.println(students[n].showInfo());
 			}
 				
 		}
